@@ -1,0 +1,13 @@
+catatan pertemuan 1 praktikum pemweb 
+Senin, 11 september 2023
+
+table
+untuk table itu taroh nya di body 
+border = ketebalan garis
+colspan = gabungin kolom
+rowspan = gabungin baris
+
+
+html global attribute itu bisa di pake dimana aja
+
+klo di masukin h7 dia bakal jdi teks biasa 
