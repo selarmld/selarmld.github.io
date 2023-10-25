@@ -1,0 +1,65 @@
+/* css untuk form login */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('bgphoto.jpg');
+    background-size: cover; /* utk mengatur ukuran gambar latar belakang */
+
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    color: #0e172c;
+    margin-bottom: 1rem;
+}
+
+/* untuk tabel pada form login */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background: rgba(255, 199, 215, 0.5);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    border-top: 1px solid #0e172c;
+    border-bottom: 1px solid #0e172c;
+    border-right: 1px solid #0e172c;
+    border-left: 1px solid #0e172c;
+    font-family: 'Poppins', sans-serif;
+}
+
+.email, .password, .nomorhp, .alamat {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+input[type='email'],
+input[type='password'] 
+input[type='nomorhp'] 
+input[type='alamat'] {
+    border-radius: 0.4em;
+    padding: 1rem;
+}
+
+input[type='submit'] {
+    width: 100%;
+    padding: 0.5rem;
+    background: rgba(216, 238, 254);
+    border: 1px solid  #0e172c;
+    cursor: pointer;
+}
